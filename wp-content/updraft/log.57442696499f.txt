@@ -1,0 +1,375 @@
+0000.013 () Opened log file at time: Tue, 21 Mar 2023 03:18:31 +0000 on https://localhost/stellar
+0000.013 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.1.1 PHP: 8.2.0 (apache2handler, Windows NT DESKTOP-QSFURB1 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 35.2M | 40M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.014 () Free space on disk containing Updraft's temporary directory: 206632 MB
+0000.041 () Restore setup, now closing connection and starting restore over AJAX.
+0000.005 () Opened log file at time: Tue, 21 Mar 2023 03:18:31 +0000 on https://localhost/stellar
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.1.1 PHP: 8.2.0 (apache2handler, Windows NT DESKTOP-QSFURB1 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 30.6M | 34M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.005 () Free space on disk containing Updraft's temporary directory: 206632 MB
+0000.018 () Ensuring WP_Filesystem is setup for a restore
+0000.019 () WP_Filesystem is setup and ready for a restore
+0000.024 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpwh_options","wpwh_users","wpwh_usermeta","wpwh_actionscheduler_actions","wpwh_actionscheduler_claims","wpwh_actionscheduler_groups","wpwh_actionscheduler_logs","wpwh_commentmeta","wpwh_comments","wpwh_links","wpwh_postmeta","wpwh_posts","wpwh_term_relationships","wpwh_term_taxonomy","wpwh_termmeta","wpwh_terms","wpwh_wc_category_lookup","wpwh_wc_product_meta_lookup","wpwh_wc_reserved_stock","wpwh_wc_tax_rate_classes","wpwh_woocommerce_order_itemmeta","wpwh_woocommerce_payment_tokenmeta","wpwh_ulike","wpwh_ulike_activities","wpwh_ulike_comments","wpwh_ulike_forums","wpwh_ulike_meta","wpwh_wc_admin_note_actions","wpwh_wc_admin_notes","wpwh_wc_customer_lookup","wpwh_wc_download_log","wpwh_wc_order_coupon_lookup","wpwh_wc_order_product_lookup","wpwh_wc_order_stats","wpwh_wc_order_tax_lookup","wpwh_wc_product_attributes_lookup","wpwh_wc_product_download_directories","wpwh_wc_rate_limits","wpwh_wc_webhooks","wpwh_woocommerce_api_keys","wpwh_woocommerce_attribute_taxonomies","wpwh_woocommerce_downloadable_product_permissions","wpwh_woocommerce_log","wpwh_woocommerce_order_items","wpwh_woocommerce_payment_tokens","wpwh_woocommerce_sessions","wpwh_woocommerce_shipping_zone_locations","wpwh_woocommerce_shipping_zone_methods","wpwh_woocommerce_shipping_zones","wpwh_woocommerce_tax_rate_locations","wpwh_woocommerce_tax_rates","wpwh_wpfm_backup","wpwh_wpforms_tasks_meta","wpwh_wpvivid_options"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.025 () PHP event: code E_WARNING: mkdir(): File exists (line 545, D:\xampp\htdocs\stellar\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.034 () Entity: db
+0000.034 () restore_backup(backup_file=backup_2023-03-18-1127_Steller_Brush_388f413ab498-db.gz, type=db, info=a:0:{}, last_one=)
+0000.034 () Unpacking backup... (backup_2023-03-18-1127_Steller_Brush_388f413ab498-db.gz, 0.9 Mb)
+0000.034 () PHP event: code E_WARNING: mkdir(): File exists (line 545, D:\xampp\htdocs\stellar\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.035 () Database successfully unpacked
+0000.036 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.041 () Using direct MySQL access; value of use_mysqli is: 1
+0000.042 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.100 () Max packet size: 32 MB
+0000.100 () Entering maintenance mode
+0000.100 () Enabling Maintenance mode&#8230;
+0000.122 () Backup of: https://stellarbrush.com
+0000.123 () Content URL: https://stellarbrush.com/wp-content
+0000.123 () Uploads URL: https://stellarbrush.com/wp-content/uploads
+0000.123 () Old table prefix: wpwh_
+0000.123 () Old ABSPATH: /home2/lukesixt/public_html/
+0000.123 () Site information: multisite=0
+0000.123 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.124 () New table prefix: 7v_
+0000.127 () Processing table (InnoDB): wpwh_options - will restore as: 7v_options
+0000.259 () Atomic restore: dropping original table (wp_options)
+0000.267 () Atomic restore: renaming new table (7v_options) to final table name (wp_options)
+0000.274 () Restoring prior UD configuration (table: wp_options; keys: 101)
+0000.290 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 244, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\backup-module.php)
+0000.290 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 244, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\backup-module.php)
+0000.290 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 244, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\backup-module.php)
+0000.290 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 244, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\backup-module.php)
+0000.290 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 244, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\backup-module.php)
+0000.290 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 244, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\backup-module.php)
+0000.290 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 263, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\backup-module.php)
+0000.290 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 263, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\backup-module.php)
+0000.290 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 263, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\backup-module.php)
+0000.297 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_pcloud::$required_php is deprecated (line 16, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.297 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_pcloud::$image is deprecated (line 17, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.297 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_pcloud::$error_msg is deprecated (line 18, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.297 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_pcloud::$error_msg_trans is deprecated (line 19, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.366 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 168, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\ftp.php)
+0000.366 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 168, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\ftp.php)
+0000.366 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 291, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\ftp.php)
+0000.366 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 291, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\ftp.php)
+0000.366 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 293, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\ftp.php)
+0000.366 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 293, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\ftp.php)
+0000.370 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_backblaze::$required_php is deprecated (line 16, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.370 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_backblaze::$image is deprecated (line 17, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.370 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_backblaze::$error_msg is deprecated (line 18, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.370 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_backblaze::$error_msg_trans is deprecated (line 19, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.418 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 451, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\s3.php)
+0000.418 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 451, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\s3.php)
+0000.418 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 487, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\s3.php)
+0000.418 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 487, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\s3.php)
+0000.419 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 1438, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\s3.php)
+0000.419 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 1440, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\s3.php)
+0000.419 () PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 1450, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\s3.php)
+0000.425 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_googlecloud::$required_php is deprecated (line 16, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.425 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_googlecloud::$image is deprecated (line 17, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.425 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_googlecloud::$error_msg is deprecated (line 18, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.425 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_googlecloud::$error_msg_trans is deprecated (line 19, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.452 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_sftp::$required_php is deprecated (line 16, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.452 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_sftp::$image is deprecated (line 17, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.452 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_sftp::$error_msg is deprecated (line 18, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.452 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_sftp::$error_msg_trans is deprecated (line 19, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.472 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_webdav::$required_php is deprecated (line 16, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.472 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_webdav::$image is deprecated (line 17, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.472 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_webdav::$error_msg is deprecated (line 18, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.472 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_webdav::$error_msg_trans is deprecated (line 19, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.482 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_onedrive::$required_php is deprecated (line 16, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.482 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_onedrive::$image is deprecated (line 17, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.482 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_onedrive::$error_msg is deprecated (line 18, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.482 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_onedrive::$error_msg_trans is deprecated (line 19, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.486 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_azure::$required_php is deprecated (line 16, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.486 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_azure::$image is deprecated (line 17, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.486 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_azure::$error_msg is deprecated (line 18, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.486 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_azure::$error_msg_trans is deprecated (line 19, D:\xampp\htdocs\stellar\wp-content\plugins\updraftplus\methods\addon-not-yet-present.php)
+0000.544 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.545 () Options table fields changed OK
+0000.554 () Search and replacing table: wp_options: rows: 777
+0000.562 () Incomplete object detected in database: NewfoldLabs\WP\Module\Data\Event; Search and replace will be skipped for these entries
+0000.569 () Incomplete object detected in database: Account\AccountDataFactory; Search and replace will be skipped for these entries
+0000.571 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0000.581 () PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 40, D:\xampp\htdocs\stellar\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0000.581 () PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 51, D:\xampp\htdocs\stellar\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0000.581 () PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 68, D:\xampp\htdocs\stellar\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0000.581 () PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 82, D:\xampp\htdocs\stellar\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0000.581 () PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 91, D:\xampp\htdocs\stellar\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0000.586 () PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 63, D:\xampp\htdocs\stellar\wp-includes\Requests\Cookie\Jar.php)
+0000.586 () PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 73, D:\xampp\htdocs\stellar\wp-includes\Requests\Cookie\Jar.php)
+0000.586 () PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 89, D:\xampp\htdocs\stellar\wp-includes\Requests\Cookie\Jar.php)
+0000.586 () PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 102, D:\xampp\htdocs\stellar\wp-includes\Requests\Cookie\Jar.php)
+0000.586 () PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 111, D:\xampp\htdocs\stellar\wp-includes\Requests\Cookie\Jar.php)
+0000.598 () Processing table (InnoDB): wpwh_users - will restore as: 7v_users
+0000.626 () Atomic restore: dropping original table (wp_users)
+0000.633 () Atomic restore: renaming new table (7v_users) to final table name (wp_users)
+0000.642 () Search and replacing table: wp_users: rows: 1
+0000.643 () Processing table (InnoDB): wpwh_usermeta - will restore as: 7v_usermeta
+0000.670 () Atomic restore: dropping original table (wp_usermeta)
+0000.676 () Atomic restore: renaming new table (7v_usermeta) to final table name (wp_usermeta)
+0000.683 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.685 () Usermeta table fields changed OK
+0000.688 () Search and replacing table: wp_usermeta: rows: 70
+0000.689 () Processing table (InnoDB): wpwh_actionscheduler_actions - will restore as: 7v_actionscheduler_actions
+0000.727 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0000.734 () Atomic restore: renaming new table (7v_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0000.744 () Search and replacing table: wp_actionscheduler_actions: rows: 96
+0000.745 () Incomplete object detected in database: ActionScheduler_IntervalSchedule; Search and replace will be skipped for these entries
+0000.745 () Incomplete object detected in database: ActionScheduler_SimpleSchedule; Search and replace will be skipped for these entries
+0000.747 () Processing table (InnoDB): wpwh_actionscheduler_claims - will restore as: 7v_actionscheduler_claims
+0000.767 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0000.773 () Atomic restore: renaming new table (7v_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0000.784 () Search and replacing table: wp_actionscheduler_claims: rows: 0
+0000.784 () Processing table (InnoDB): wpwh_actionscheduler_groups - will restore as: 7v_actionscheduler_groups
+0000.809 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0000.815 () Atomic restore: renaming new table (7v_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0000.825 () Search and replacing table: wp_actionscheduler_groups: rows: 5
+0000.825 () Processing table (InnoDB): wpwh_actionscheduler_logs - will restore as: 7v_actionscheduler_logs
+0000.856 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0000.863 () Atomic restore: renaming new table (7v_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0000.874 () Search and replacing table: wp_actionscheduler_logs: rows: 286
+0000.877 () Processing table (InnoDB): wpwh_commentmeta - will restore as: 7v_commentmeta
+0000.898 () Atomic restore: dropping original table (wp_commentmeta)
+0000.905 () Atomic restore: renaming new table (7v_commentmeta) to final table name (wp_commentmeta)
+0000.915 () Search and replacing table: wp_commentmeta: rows: 0
+0000.915 () Processing table (InnoDB): wpwh_comments - will restore as: 7v_comments
+0000.948 () Atomic restore: dropping original table (wp_comments)
+0000.972 () Atomic restore: renaming new table (7v_comments) to final table name (wp_comments)
+0000.995 () Search and replacing table: wp_comments: rows: 4
+0000.996 () Processing table (InnoDB): wpwh_links - will restore as: 7v_links
+0001.032 () Atomic restore: dropping original table (wp_links)
+0001.041 () Atomic restore: renaming new table (7v_links) to final table name (wp_links)
+0001.052 () Search and replacing table: wp_links: rows: 0
+0001.052 () Processing table (InnoDB): wpwh_postmeta - will restore as: 7v_postmeta
+0001.243 () Atomic restore: dropping original table (wp_postmeta)
+0001.252 () Atomic restore: renaming new table (7v_postmeta) to final table name (wp_postmeta)
+0001.266 () Search and replacing table: wp_postmeta: rows: 4156
+0001.299 () Processing table (InnoDB): wpwh_posts - will restore as: 7v_posts
+0001.517 () Database queries processed: 50 in 1.47 seconds
+0001.624 () Atomic restore: dropping original table (wp_posts)
+0001.635 () Atomic restore: renaming new table (7v_posts) to final table name (wp_posts)
+0001.647 () Skipping search/replace on GUID column in posts table
+0001.683 () Search and replacing table: wp_posts: rows: 942
+0002.400 () Processing table (InnoDB): wpwh_term_relationships - will restore as: 7v_term_relationships
+0002.426 () Atomic restore: dropping original table (wp_term_relationships)
+0002.433 () Atomic restore: renaming new table (7v_term_relationships) to final table name (wp_term_relationships)
+0002.447 () Search and replacing table: wp_term_relationships: rows: 20
+0002.448 () Processing table (InnoDB): wpwh_term_taxonomy - will restore as: 7v_term_taxonomy
+0002.472 () Atomic restore: dropping original table (wp_term_taxonomy)
+0002.479 () Atomic restore: renaming new table (7v_term_taxonomy) to final table name (wp_term_taxonomy)
+0002.489 () Search and replacing table: wp_term_taxonomy: rows: 19
+0002.489 () Processing table (InnoDB): wpwh_termmeta - will restore as: 7v_termmeta
+0002.517 () Atomic restore: dropping original table (wp_termmeta)
+0002.523 () Atomic restore: renaming new table (7v_termmeta) to final table name (wp_termmeta)
+0002.534 () Search and replacing table: wp_termmeta: rows: 1
+0002.534 () Processing table (InnoDB): wpwh_terms - will restore as: 7v_terms
+0002.559 () Atomic restore: dropping original table (wp_terms)
+0002.566 () Atomic restore: renaming new table (7v_terms) to final table name (wp_terms)
+0002.575 () Search and replacing table: wp_terms: rows: 19
+0002.576 () Processing table (InnoDB): wpwh_wc_category_lookup - will restore as: 7v_wc_category_lookup
+0002.608 () Atomic restore: dropping original table (wp_wc_category_lookup)
+0002.615 () Atomic restore: renaming new table (7v_wc_category_lookup) to final table name (wp_wc_category_lookup)
+0002.624 () Search and replacing table: wp_wc_category_lookup: rows: 1
+0002.624 () Processing table (InnoDB): wpwh_wc_product_meta_lookup - will restore as: 7v_wc_product_meta_lookup
+0002.655 () Atomic restore: dropping original table (wp_wc_product_meta_lookup)
+0002.662 () Atomic restore: renaming new table (7v_wc_product_meta_lookup) to final table name (wp_wc_product_meta_lookup)
+0002.672 () Search and replacing table: wp_wc_product_meta_lookup: rows: 1
+0002.673 () Processing table (InnoDB): wpwh_wc_reserved_stock - will restore as: 7v_wc_reserved_stock
+0002.685 () Atomic restore: dropping original table (wp_wc_reserved_stock)
+0002.692 () Atomic restore: renaming new table (7v_wc_reserved_stock) to final table name (wp_wc_reserved_stock)
+0002.701 () Search and replacing table: wp_wc_reserved_stock: rows: 0
+0002.701 () Processing table (InnoDB): wpwh_wc_tax_rate_classes - will restore as: 7v_wc_tax_rate_classes
+0002.723 () Atomic restore: dropping original table (wp_wc_tax_rate_classes)
+0002.730 () Atomic restore: renaming new table (7v_wc_tax_rate_classes) to final table name (wp_wc_tax_rate_classes)
+0002.741 () Search and replacing table: wp_wc_tax_rate_classes: rows: 2
+0002.741 () Processing table (InnoDB): wpwh_woocommerce_order_itemmeta - will restore as: 7v_woocommerce_order_itemmeta
+0002.765 () Atomic restore: dropping original table (wp_woocommerce_order_itemmeta)
+0002.774 () Atomic restore: renaming new table (7v_woocommerce_order_itemmeta) to final table name (wp_woocommerce_order_itemmeta)
+0002.783 () Search and replacing table: wp_woocommerce_order_itemmeta: rows: 15
+0002.783 () Processing table (InnoDB): wpwh_woocommerce_payment_tokenmeta - will restore as: 7v_woocommerce_payment_tokenmeta
+0002.805 () Atomic restore: dropping original table (wp_woocommerce_payment_tokenmeta)
+0002.811 () Atomic restore: renaming new table (7v_woocommerce_payment_tokenmeta) to final table name (wp_woocommerce_payment_tokenmeta)
+0002.820 () Search and replacing table: wp_woocommerce_payment_tokenmeta: rows: 0
+0002.820 () Processing table (InnoDB): wpwh_ulike - will restore as: 7v_ulike
+0002.849 () Atomic restore: dropping original table (wp_ulike)
+0002.856 () Atomic restore: renaming new table (7v_ulike) to final table name (wp_ulike)
+0002.867 () Search and replacing table: wp_ulike: rows: 18
+0002.868 () Processing table (InnoDB): wpwh_ulike_activities - will restore as: 7v_ulike_activities
+0002.889 () Atomic restore: dropping original table (wp_ulike_activities)
+0002.896 () Atomic restore: renaming new table (7v_ulike_activities) to final table name (wp_ulike_activities)
+0002.906 () Search and replacing table: wp_ulike_activities: rows: 0
+0002.906 () Processing table (InnoDB): wpwh_ulike_comments - will restore as: 7v_ulike_comments
+0002.931 () Atomic restore: dropping original table (wp_ulike_comments)
+0002.938 () Atomic restore: renaming new table (7v_ulike_comments) to final table name (wp_ulike_comments)
+0002.948 () Search and replacing table: wp_ulike_comments: rows: 0
+0002.948 () Processing table (InnoDB): wpwh_ulike_forums - will restore as: 7v_ulike_forums
+0003.007 () Atomic restore: dropping original table (wp_ulike_forums)
+0003.028 () Atomic restore: renaming new table (7v_ulike_forums) to final table name (wp_ulike_forums)
+0003.039 () Search and replacing table: wp_ulike_forums: rows: 0
+0003.039 () Processing table (InnoDB): wpwh_ulike_meta - will restore as: 7v_ulike_meta
+0003.089 () Atomic restore: dropping original table (wp_ulike_meta)
+0003.097 () Atomic restore: renaming new table (7v_ulike_meta) to final table name (wp_ulike_meta)
+0003.106 () Search and replacing table: wp_ulike_meta: rows: 26
+0003.107 () Processing table (InnoDB): wpwh_wc_admin_note_actions - will restore as: 7v_wc_admin_note_actions
+0003.134 () Atomic restore: dropping original table (wp_wc_admin_note_actions)
+0003.141 () Atomic restore: renaming new table (7v_wc_admin_note_actions) to final table name (wp_wc_admin_note_actions)
+0003.152 () Search and replacing table: wp_wc_admin_note_actions: rows: 58
+0003.153 () Processing table (InnoDB): wpwh_wc_admin_notes - will restore as: 7v_wc_admin_notes
+0003.173 () Atomic restore: dropping original table (wp_wc_admin_notes)
+0003.180 () Database queries processed: 100 in 3.14 seconds
+0003.180 () Atomic restore: renaming new table (7v_wc_admin_notes) to final table name (wp_wc_admin_notes)
+0003.190 () Search and replacing table: wp_wc_admin_notes: rows: 49
+0003.266 () Processing table (InnoDB): wpwh_wc_customer_lookup - will restore as: 7v_wc_customer_lookup
+0003.284 () Atomic restore: dropping original table (wp_wc_customer_lookup)
+0003.289 () Atomic restore: renaming new table (7v_wc_customer_lookup) to final table name (wp_wc_customer_lookup)
+0003.303 () Search and replacing table: wp_wc_customer_lookup: rows: 1
+0003.303 () Processing table (InnoDB): wpwh_wc_download_log - will restore as: 7v_wc_download_log
+0003.326 () Atomic restore: dropping original table (wp_wc_download_log)
+0003.332 () Atomic restore: renaming new table (7v_wc_download_log) to final table name (wp_wc_download_log)
+0003.341 () Search and replacing table: wp_wc_download_log: rows: 0
+0003.341 () Processing table (InnoDB): wpwh_wc_order_coupon_lookup - will restore as: 7v_wc_order_coupon_lookup
+0003.364 () Atomic restore: dropping original table (wp_wc_order_coupon_lookup)
+0003.370 () Atomic restore: renaming new table (7v_wc_order_coupon_lookup) to final table name (wp_wc_order_coupon_lookup)
+0003.382 () Search and replacing table: wp_wc_order_coupon_lookup: rows: 0
+0003.382 () Processing table (InnoDB): wpwh_wc_order_product_lookup - will restore as: 7v_wc_order_product_lookup
+0003.410 () Atomic restore: dropping original table (wp_wc_order_product_lookup)
+0003.417 () Atomic restore: renaming new table (7v_wc_order_product_lookup) to final table name (wp_wc_order_product_lookup)
+0003.427 () Search and replacing table: wp_wc_order_product_lookup: rows: 1
+0003.428 () Processing table (InnoDB): wpwh_wc_order_stats - will restore as: 7v_wc_order_stats
+0003.455 () Atomic restore: dropping original table (wp_wc_order_stats)
+0003.462 () Atomic restore: renaming new table (7v_wc_order_stats) to final table name (wp_wc_order_stats)
+0003.471 () Search and replacing table: wp_wc_order_stats: rows: 1
+0003.471 () Processing table (InnoDB): wpwh_wc_order_tax_lookup - will restore as: 7v_wc_order_tax_lookup
+0003.494 () Atomic restore: dropping original table (wp_wc_order_tax_lookup)
+0003.501 () Atomic restore: renaming new table (7v_wc_order_tax_lookup) to final table name (wp_wc_order_tax_lookup)
+0003.511 () Search and replacing table: wp_wc_order_tax_lookup: rows: 0
+0003.511 () Processing table (InnoDB): wpwh_wc_product_attributes_lookup - will restore as: 7v_wc_product_attributes_lookup
+0003.529 () Atomic restore: dropping original table (wp_wc_product_attributes_lookup)
+0003.536 () Atomic restore: renaming new table (7v_wc_product_attributes_lookup) to final table name (wp_wc_product_attributes_lookup)
+0003.546 () Search and replacing table: wp_wc_product_attributes_lookup: rows: 0
+0003.546 () Processing table (InnoDB): wpwh_wc_product_download_directories - will restore as: 7v_wc_product_download_directories
+0003.572 () Atomic restore: dropping original table (wp_wc_product_download_directories)
+0003.578 () Atomic restore: renaming new table (7v_wc_product_download_directories) to final table name (wp_wc_product_download_directories)
+0003.587 () Search and replacing table: wp_wc_product_download_directories: rows: 2
+0003.589 () Processing table (InnoDB): wpwh_wc_rate_limits - will restore as: 7v_wc_rate_limits
+0003.612 () Atomic restore: dropping original table (wp_wc_rate_limits)
+0003.617 () Atomic restore: renaming new table (7v_wc_rate_limits) to final table name (wp_wc_rate_limits)
+0003.627 () Search and replacing table: wp_wc_rate_limits: rows: 0
+0003.627 () Processing table (InnoDB): wpwh_wc_webhooks - will restore as: 7v_wc_webhooks
+0003.649 () Atomic restore: dropping original table (wp_wc_webhooks)
+0003.655 () Atomic restore: renaming new table (7v_wc_webhooks) to final table name (wp_wc_webhooks)
+0003.665 () Search and replacing table: wp_wc_webhooks: rows: 0
+0003.665 () Processing table (InnoDB): wpwh_woocommerce_api_keys - will restore as: 7v_woocommerce_api_keys
+0003.686 () Atomic restore: dropping original table (wp_woocommerce_api_keys)
+0003.692 () Atomic restore: renaming new table (7v_woocommerce_api_keys) to final table name (wp_woocommerce_api_keys)
+0003.702 () Search and replacing table: wp_woocommerce_api_keys: rows: 0
+0003.702 () Processing table (InnoDB): wpwh_woocommerce_attribute_taxonomies - will restore as: 7v_woocommerce_attribute_taxonomies
+0003.724 () Atomic restore: dropping original table (wp_woocommerce_attribute_taxonomies)
+0003.730 () Atomic restore: renaming new table (7v_woocommerce_attribute_taxonomies) to final table name (wp_woocommerce_attribute_taxonomies)
+0003.739 () Search and replacing table: wp_woocommerce_attribute_taxonomies: rows: 0
+0003.740 () Processing table (InnoDB): wpwh_woocommerce_downloadable_product_permissions - will restore as: 7v_woocommerce_downloadable_product_permissions
+0003.764 () Atomic restore: dropping original table (wp_woocommerce_downloadable_product_permissions)
+0003.770 () Atomic restore: renaming new table (7v_woocommerce_downloadable_product_permissions) to final table name (wp_woocommerce_downloadable_product_permissions)
+0003.781 () Search and replacing table: wp_woocommerce_downloadable_product_permissions: rows: 0
+0003.781 () Processing table (InnoDB): wpwh_woocommerce_log - will restore as: 7v_woocommerce_log
+0003.803 () Atomic restore: dropping original table (wp_woocommerce_log)
+0003.809 () Atomic restore: renaming new table (7v_woocommerce_log) to final table name (wp_woocommerce_log)
+0003.820 () Search and replacing table: wp_woocommerce_log: rows: 0
+0003.820 () Processing table (InnoDB): wpwh_woocommerce_order_items - will restore as: 7v_woocommerce_order_items
+0003.845 () Atomic restore: dropping original table (wp_woocommerce_order_items)
+0003.852 () Atomic restore: renaming new table (7v_woocommerce_order_items) to final table name (wp_woocommerce_order_items)
+0003.860 () Search and replacing table: wp_woocommerce_order_items: rows: 2
+0003.861 () Processing table (InnoDB): wpwh_woocommerce_payment_tokens - will restore as: 7v_woocommerce_payment_tokens
+0003.888 () Atomic restore: dropping original table (wp_woocommerce_payment_tokens)
+0003.894 () Atomic restore: renaming new table (7v_woocommerce_payment_tokens) to final table name (wp_woocommerce_payment_tokens)
+0003.904 () Search and replacing table: wp_woocommerce_payment_tokens: rows: 0
+0003.904 () Processing table (InnoDB): wpwh_woocommerce_sessions - will restore as: 7v_woocommerce_sessions
+0003.936 () Atomic restore: dropping original table (wp_woocommerce_sessions)
+0003.948 () Atomic restore: renaming new table (7v_woocommerce_sessions) to final table name (wp_woocommerce_sessions)
+0003.958 () Search and replacing table: wp_woocommerce_sessions: rows: 22
+0003.959 () Incomplete object detected in database: WC_Shipping_Rate; Search and replace will be skipped for these entries
+0003.962 () Processing table (InnoDB): wpwh_woocommerce_shipping_zone_locations - will restore as: 7v_woocommerce_shipping_zone_locations
+0003.984 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_locations)
+0003.990 () Atomic restore: renaming new table (7v_woocommerce_shipping_zone_locations) to final table name (wp_woocommerce_shipping_zone_locations)
+0004.001 () Search and replacing table: wp_woocommerce_shipping_zone_locations: rows: 0
+0004.001 () Processing table (InnoDB): wpwh_woocommerce_shipping_zone_methods - will restore as: 7v_woocommerce_shipping_zone_methods
+0004.017 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_methods)
+0004.023 () Atomic restore: renaming new table (7v_woocommerce_shipping_zone_methods) to final table name (wp_woocommerce_shipping_zone_methods)
+0004.033 () Search and replacing table: wp_woocommerce_shipping_zone_methods: rows: 1
+0004.034 () Processing table (InnoDB): wpwh_woocommerce_shipping_zones - will restore as: 7v_woocommerce_shipping_zones
+0004.047 () Atomic restore: dropping original table (wp_woocommerce_shipping_zones)
+0004.052 () Atomic restore: renaming new table (7v_woocommerce_shipping_zones) to final table name (wp_woocommerce_shipping_zones)
+0004.062 () Search and replacing table: wp_woocommerce_shipping_zones: rows: 1
+0004.062 () Processing table (InnoDB): wpwh_woocommerce_tax_rate_locations - will restore as: 7v_woocommerce_tax_rate_locations
+0004.087 () Database queries processed: 150 in 4.04 seconds
+0004.088 () Atomic restore: dropping original table (wp_woocommerce_tax_rate_locations)
+0004.113 () Atomic restore: renaming new table (7v_woocommerce_tax_rate_locations) to final table name (wp_woocommerce_tax_rate_locations)
+0004.159 () Search and replacing table: wp_woocommerce_tax_rate_locations: rows: 0
+0004.159 () Processing table (InnoDB): wpwh_woocommerce_tax_rates - will restore as: 7v_woocommerce_tax_rates
+0004.182 () Atomic restore: dropping original table (wp_woocommerce_tax_rates)
+0004.197 () Atomic restore: renaming new table (7v_woocommerce_tax_rates) to final table name (wp_woocommerce_tax_rates)
+0004.209 () Search and replacing table: wp_woocommerce_tax_rates: rows: 0
+0004.209 () Processing table (InnoDB): wpwh_wpfm_backup - will restore as: 7v_wpfm_backup
+0004.221 () Atomic restore: dropping original table (wp_wpfm_backup)
+0004.227 () Atomic restore: renaming new table (7v_wpfm_backup) to final table name (wp_wpfm_backup)
+0004.238 () Search and replacing table: wp_wpfm_backup: rows: 0
+0004.238 () Processing table (InnoDB): wpwh_wpforms_tasks_meta - will restore as: 7v_wpforms_tasks_meta
+0004.256 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0004.263 () Atomic restore: renaming new table (7v_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0004.276 () Search and replacing table: wp_wpforms_tasks_meta: rows: 3
+0004.276 () Processing table (InnoDB): wpwh_wpvivid_options - will restore as: 7v_wpvivid_options
+0004.290 () Unlocking database and leaving maintenance mode
+0004.290 () Disabling Maintenance mode&#8230;
+0004.290 () Atomic restore: dropping original table (wp_wpvivid_options)
+0004.297 () Atomic restore: renaming new table (7v_wpvivid_options) to final table name (wp_wpvivid_options)
+0004.306 () Search and replacing table: wp_wpvivid_options: rows: 0
+0004.306 () Finished: lines processed: 161 in 4.26 seconds
+0004.306 () Cleaning up rubbish...
+0004.331 () Entity: plugins
+0004.331 () restore_backup(backup_file=backup_2023-03-18-1127_Steller_Brush_388f413ab498-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:42:"D:\xampp\htdocs\stellar/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0004.332 () Unpacking backup... (backup_2023-03-18-1127_Steller_Brush_388f413ab498-plugins.zip, 31.9 MB)
+0004.333 () Unzipping backup_2023-03-18-1127_Steller_Brush_388f413ab498-plugins.zip to D:/xampp/htdocs/stellar/wp-content/upgrade/920b6735/ using UpdraftPlus_PclZip, starting index 0
+0005.046 () Unzip progress: 1471 out of 8966 files (1.7 KB, plugins/updraftplus/templates/wp-admin/settings/file-backup-exclude.php)
+0006.063 () Unzip progress: 2472 out of 8966 files (9.3 MB, plugins/woocommerce/assets/js/frontend/cart.js)
+0008.262 () Unzip progress: 3473 out of 8966 files (35.2 MB, plugins/woocommerce/templates/single-product/short-description.php)
+0010.901 () Unzip progress: 4474 out of 8966 files (43.7 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/reviews/editor-block.js)
+0012.514 () Unzip progress: 5475 out of 8966 files (49.2 MB, plugins/woocommerce/packages/woocommerce-blocks/vendor/composer/installers/src/Composer/Installers/WHMCSInstaller.php)
+0014.788 () Unzip progress: 6476 out of 8966 files (52.1 MB, plugins/woocommerce/includes/class-wc-autoloader.php)
+0017.874 () Unzip progress: 7477 out of 8966 files (65 MB, plugins/advanced-custom-fields-pro/includes/upgrades.php)
+0020.852 () Unzip progress: 8478 out of 8966 files (89.8 MB, plugins/really-simple-ssl/lets-encrypt/vendor/plesk/api-php-lib/src/Api/Operator.php)
+0022.607 () Unzip progress: 8966 out of 8966 files (94.6 MB, plugins/password-protected/languages/password-protected-ug.po)
+0022.612 () Moving old data: filesystem method / updraft_dir is potentially possible
+0022.613 () Moving old data: can potentially use wp_filesystem method / -old
+0022.613 () Moving old data out of the way...
+0022.840 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0022.849 () Moving unpacked backup into place...
+0024.381 () Top-level entities being moved: address-field-autocomplete-for-woocommerce, advanced-custom-fields-pro, autocomplete-address-and-location-picker-for-woocommerce, classic-editor, contact-form-7, index.php, nitropack, page-title-splitter, password-protected, really-simple-captcha, really-simple-ssl, updraftplus, vimeo, woocommerce, woocommerce-gateway-stripe, wp-ulike
+0024.414 () Cleaning up rubbish...
+0024.422 () Entity: themes
+0024.422 () restore_backup(backup_file=backup_2023-03-18-1127_Steller_Brush_388f413ab498-themes.zip, type=themes, info=a:3:{s:4:"path";s:41:"D:\xampp\htdocs\stellar/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0024.423 () Unpacking backup... (backup_2023-03-18-1127_Steller_Brush_388f413ab498-themes.zip, 11.8 MB)
+0024.423 () Unzipping backup_2023-03-18-1127_Steller_Brush_388f413ab498-themes.zip to D:/xampp/htdocs/stellar/wp-content/upgrade/2337107c/ using UpdraftPlus_PclZip, starting index 0
+0025.886 () Unzip progress: 918 out of 918 files (17.3 MB, themes/index.php)
+0025.888 () Moving old data: filesystem method / updraft_dir is potentially possible
+0025.889 () Moving old data: can potentially use wp_filesystem method / -old
+0025.889 () Moving old data out of the way...
+0026.014 () Top-level entities being moved: index.php, twentytwentyone, twentytwentythree, twentytwentytwo
+0026.017 () Moving unpacked backup into place...
+0026.176 () Top-level entities being moved: index.php, luke630, sinatra, twentytwentyone, twentytwentythree, twentytwentytwo
+0026.183 () Cleaning up rubbish...
+0026.205 () Entity: uploads
+0026.205 () restore_backup(backup_file=backup_2023-03-18-1127_Steller_Brush_388f413ab498-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:42:"D:\xampp\htdocs\stellar/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0026.205 () Unpacking backup... (backup_2023-03-18-1127_Steller_Brush_388f413ab498-uploads.zip, 93.7 MB)
+0026.206 () Unzipping backup_2023-03-18-1127_Steller_Brush_388f413ab498-uploads.zip to D:/xampp/htdocs/stellar/wp-content/upgrade/880bcd01/ using UpdraftPlus_PclZip, starting index 0
+0027.126 () Unzip progress: 373 out of 373 files (93.9 MB, uploads/2023/02/Group-312-450x450.png)
+0027.137 () Moving old data: filesystem method / updraft_dir is potentially possible
+0027.137 () Moving old data: can potentially use wp_filesystem method / -old
+0027.137 () Moving old data out of the way...
+0027.139 () Moving unpacked backup into place...
+0027.182 () Cleaning up rubbish...
+0027.190 () Entity: others
+0027.190 () restore_backup(backup_file=backup_2023-03-18-1127_Steller_Brush_388f413ab498-others.zip, type=others, info=a:2:{s:4:"path";s:34:"D:\xampp\htdocs\stellar/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0027.191 () Unpacking backup... (backup_2023-03-18-1127_Steller_Brush_388f413ab498-others.zip, 0.4 MB)
+0027.191 () Unzipping backup_2023-03-18-1127_Steller_Brush_388f413ab498-others.zip to D:/xampp/htdocs/stellar/wp-content/upgrade/d1e573da/ using UpdraftPlus_PclZip, starting index 0
+0027.238 () Unzip progress: 44 out of 44 files (680.8 KB, nitropack/config.json)
+0027.248 () Cleaning up rubbish...
+0027.288 () Restore successful!
+0027.288 () Restore successful

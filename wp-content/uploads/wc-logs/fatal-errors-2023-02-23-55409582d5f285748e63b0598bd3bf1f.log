@@ -1,0 +1,8 @@
+2023-02-23T13:48:19+00:00 CRITICAL syntax error, unexpected identifier "map" in /home2/lukesixt/public_html/wp-content/themes/luke630/functions.php on line 226
+
+2023-02-23T13:53:06+00:00 CRITICAL syntax error, unexpected token "=" in /home2/lukesixt/public_html/wp-content/themes/luke630/functions.php on line 228
+
+2023-02-23T13:53:06+00:00 CRITICAL syntax error, unexpected token "=" in /home2/lukesixt/public_html/wp-content/themes/luke630/functions.php on line 228
+
+2023-02-23T13:53:18+00:00 CRITICAL syntax error, unexpected token "=" in /home2/lukesixt/public_html/wp-content/themes/luke630/functions.php on line 227
+

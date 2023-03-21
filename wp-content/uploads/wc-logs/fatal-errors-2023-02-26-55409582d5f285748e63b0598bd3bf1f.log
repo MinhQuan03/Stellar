@@ -1,0 +1,14 @@
+2023-02-26T13:37:14+00:00 CRITICAL Uncaught Error: Undefined constant "do_shortcode" in /home2/lukesixt/public_html/wp-content/themes/luke630/blogs.php:69
+Stack trace:
+#0 /home2/lukesixt/public_html/wp-includes/template-loader.php(106): include()
+#1 /home2/lukesixt/public_html/wp-blog-header.php(19): require_once('/home2/lukesixt...')
+#2 /home2/lukesixt/public_html/index.php(17): require('/home2/lukesixt...')
+#3 {main}
+  thrown in /home2/lukesixt/public_html/wp-content/themes/luke630/blogs.php on line 69
+
+2023-02-26T16:12:49+00:00 CRITICAL syntax error, unexpected token "<" in /home2/lukesixt/public_html/wp-content/themes/luke630/template/content.php on line 13
+
+2023-02-26T16:16:24+00:00 CRITICAL syntax error, unexpected token "elseif" in /home2/lukesixt/public_html/wp-content/themes/luke630/template/content.php on line 6
+
+2023-02-26T16:18:07+00:00 CRITICAL Unclosed '{' on line 1 in /home2/lukesixt/public_html/wp-content/themes/luke630/template/content.php on line 21
+

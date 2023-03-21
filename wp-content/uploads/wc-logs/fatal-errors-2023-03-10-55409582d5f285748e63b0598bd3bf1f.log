@@ -1,0 +1,28 @@
+2023-03-10T10:27:38+00:00 CRITICAL Uncaught Error: Undefined constant "billing_address_1" in /home2/lukesixt/public_html/wp-content/themes/luke630/functions.php:272
+Stack trace:
+#0 /home2/lukesixt/public_html/wp-includes/class-wp-hook.php(308): custom_override_checkout_fields(Array)
+#1 /home2/lukesixt/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home2/lukesixt/public_html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(300): apply_filters('woocommerce_che...', Array)
+#3 /home2/lukesixt/public_html/wp-content/themes/luke630/woocommerce/checkout/form-checkout.php(36): WC_Checkout->get_checkout_fields()
+#4 /home2/lukesixt/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home2/lukesixt...')
+#5 /home2/lukesixt/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#6 /home2/lukesixt/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#7 /home2/lukesixt/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 /home2/lukesixt/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 /home2/lukesixt/public_html/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 /home2/lukesixt/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 /home2/lukesixt/public_html/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 /home2/lukesixt/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 /home2/lukesixt/public_html/wp-includes/post-template.php(255): apply_filters('the_content', '[woocommerce_ch...')
+#15 /home2/lukesixt/public_html/wp-content/themes/luke630/template/content.php(32): the_content()
+#16 /home2/lukesixt/public_html/wp-includes/template.php(785): require('/home2/lukesixt...')
+#17 /home2/lukesixt/public_html/wp-includes/template.php(718): load_template('/home2/lukesixt...', false, Array)
+#18 /home2/lukesixt/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#19 /home2/lukesixt/public_html/wp-content/themes/luke630/page.php(7): get_template_part('template/conten...')
+#20 /home2/lukesixt/public_html/wp-includes/template-loader.php(106): include('/home2/lukesixt...')
+#21 /home2/lukesixt/public_html/wp-blog-header.php(19): require_once('/home2/lukesixt...')
+#22 /home2/lukesixt/public_html/index.php(17): require('/home2/lukesixt...')
+#23 {main}
+  thrown in /home2/lukesixt/public_html/wp-content/themes/luke630/functions.php on line 272
+

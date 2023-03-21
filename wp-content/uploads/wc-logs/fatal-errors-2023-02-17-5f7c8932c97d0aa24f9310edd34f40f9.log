@@ -1,0 +1,48 @@
+2023-02-17T00:27:15+00:00 CRITICAL Uncaught Error: Undefined constant "php" in /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/woocommerce/checkout/form-checkout.php:78
+Stack trace:
+#0 /home2/lukesixt/public_html/luke630/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home2/lukesixt/public_html/luke630/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#2 /home2/lukesixt/public_html/luke630/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 /home2/lukesixt/public_html/luke630/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home2/lukesixt/public_html/luke630/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /home2/lukesixt/public_html/luke630/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /home2/lukesixt/public_html/luke630/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 /home2/lukesixt/public_html/luke630/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#9 /home2/lukesixt/public_html/luke630/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 /home2/lukesixt/public_html/luke630/wp-includes/post-template.php(255): apply_filters('the_content', '[woocommerce_ch...')
+#11 /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/template/content.php(14): the_content()
+#12 /home2/lukesixt/public_html/luke630/wp-includes/template.php(785): require('/home2/lukesixt...')
+#13 /home2/lukesixt/public_html/luke630/wp-includes/template.php(718): load_template('/home2/lukesixt...', false, Array)
+#14 /home2/lukesixt/public_html/luke630/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#15 /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/page.php(7): get_template_part('template/conten...')
+#16 /home2/lukesixt/public_html/luke630/wp-includes/template-loader.php(106): include('/home2/lukesixt...')
+#17 /home2/lukesixt/public_html/luke630/wp-blog-header.php(19): require_once('/home2/lukesixt...')
+#18 /home2/lukesixt/public_html/luke630/index.php(17): require('/home2/lukesixt...')
+#19 {main}
+  thrown in /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/woocommerce/checkout/form-checkout.php on line 78
+
+2023-02-17T00:28:19+00:00 CRITICAL Uncaught Error: Undefined constant "php" in /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/woocommerce/checkout/form-checkout.php:75
+Stack trace:
+#0 /home2/lukesixt/public_html/luke630/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home2/lukesixt/public_html/luke630/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#2 /home2/lukesixt/public_html/luke630/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 /home2/lukesixt/public_html/luke630/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home2/lukesixt/public_html/luke630/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /home2/lukesixt/public_html/luke630/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /home2/lukesixt/public_html/luke630/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 /home2/lukesixt/public_html/luke630/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#9 /home2/lukesixt/public_html/luke630/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 /home2/lukesixt/public_html/luke630/wp-includes/post-template.php(255): apply_filters('the_content', '[woocommerce_ch...')
+#11 /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/template/content.php(14): the_content()
+#12 /home2/lukesixt/public_html/luke630/wp-includes/template.php(785): require('/home2/lukesixt...')
+#13 /home2/lukesixt/public_html/luke630/wp-includes/template.php(718): load_template('/home2/lukesixt...', false, Array)
+#14 /home2/lukesixt/public_html/luke630/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#15 /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/page.php(7): get_template_part('template/conten...')
+#16 /home2/lukesixt/public_html/luke630/wp-includes/template-loader.php(106): include('/home2/lukesixt...')
+#17 /home2/lukesixt/public_html/luke630/wp-blog-header.php(19): require_once('/home2/lukesixt...')
+#18 /home2/lukesixt/public_html/luke630/index.php(17): require('/home2/lukesixt...')
+#19 {main}
+  thrown in /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/woocommerce/checkout/form-checkout.php on line 75
+

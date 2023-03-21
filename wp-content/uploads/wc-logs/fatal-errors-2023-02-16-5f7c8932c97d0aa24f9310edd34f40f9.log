@@ -1,0 +1,26 @@
+2023-02-16T09:41:59+00:00 CRITICAL Uncaught Error: Call to undefined function dd_theme_support() in /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/functions.php:16
+Stack trace:
+#0 /home2/lukesixt/public_html/luke630/wp-includes/class-wp-hook.php(308): kts_theme_setup('')
+#1 /home2/lukesixt/public_html/luke630/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/lukesixt/public_html/luke630/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home2/lukesixt/public_html/luke630/wp-settings.php(595): do_action('after_setup_the...')
+#4 /home2/lukesixt/public_html/luke630/wp-config.php(96): require_once('/home2/lukesixt...')
+#5 /home2/lukesixt/public_html/luke630/wp-load.php(50): require_once('/home2/lukesixt...')
+#6 /home2/lukesixt/public_html/luke630/wp-blog-header.php(13): require_once('/home2/lukesixt...')
+#7 /home2/lukesixt/public_html/luke630/index.php(17): require('/home2/lukesixt...')
+#8 {main}
+  thrown in /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/functions.php on line 16
+
+2023-02-16T09:42:01+00:00 CRITICAL Uncaught Error: Call to undefined function dd_theme_support() in /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/functions.php:16
+Stack trace:
+#0 /home2/lukesixt/public_html/luke630/wp-includes/class-wp-hook.php(308): kts_theme_setup('')
+#1 /home2/lukesixt/public_html/luke630/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/lukesixt/public_html/luke630/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home2/lukesixt/public_html/luke630/wp-settings.php(595): do_action('after_setup_the...')
+#4 /home2/lukesixt/public_html/luke630/wp-config.php(96): require_once('/home2/lukesixt...')
+#5 /home2/lukesixt/public_html/luke630/wp-load.php(50): require_once('/home2/lukesixt...')
+#6 /home2/lukesixt/public_html/luke630/wp-blog-header.php(13): require_once('/home2/lukesixt...')
+#7 /home2/lukesixt/public_html/luke630/index.php(17): require('/home2/lukesixt...')
+#8 {main}
+  thrown in /home2/lukesixt/public_html/luke630/wp-content/themes/luke630/functions.php on line 16
+
